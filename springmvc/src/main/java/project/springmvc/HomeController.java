@@ -16,6 +16,7 @@ import maven.demo.model.Vendor;
 @Controller
 public class HomeController 
 {
+	//mapping all the requests 
 	@Autowired
 	private VendorDao vendorDao;
 @RequestMapping("/")
